@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E9E8E6;
+}
+
+body, button, input {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* common items begin */
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.text-orange {
+    color: #E15426;
+}
+
+button {
+    background-color: #E15426;
+    color: #E9E8E6;
+    font-size: 14px;
+    border-radius: 8px;
+    padding: 16px 32px;
+    border: 1px solid #E9E8E6;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+/* common items end */
+
+header {
+    padding: 56px;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: #110F12;
+}
+
+header nav li a:hover {
+    text-decoration: underline;
+    color: #E15426;
+}
+
+header nav li.contact-phone {
+    color: #E15426;
+    margin-left: 72px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#jumbotron {
+    height: 440px;
+}
+
+#jumbotron h1 {
+    font-size: 72px;
+    font-weight: 600;
+    margin-bottom: 32px;
+}
+
+#jumbotron .container {
+    display: flex;
+}
+
+.jumbotron-image-pic {
+    height: 440px;
+}
+
+.jumbotron-call {
+    padding: 72px 0 0 196px;
+    position: absolute;
+}
+
+.jumbotron-call a {
+    text-decoration: none;
+    background-color: #E15426;
+    color: #E9E8E6;
+    font-size: 14px;
+    border-radius: 8px;
+    padding: 16px 32px;
+}
+
+.jumbotron-image {
+    margin-left: 760px;
+    position: absolute;
+    z-index: -1;
+}
+
+#coffees img {
+    display: block;
+    width: 100%;
+}
+
+#contact {
+    background-color: #E15426;
+    padding: 96px;
+}
+
+#contact h2 {
+    color: #E9E8E6;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+#contact .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+form input {
+    display: block;
+    width: 400px;
+    margin-bottom: 16px;
+    padding: 8px;
+}
+
+form button {
+    float: right;
+    padding: 8px 16px;
+}
+
+input:focus {
+    outline: none;
+}
+
+#other-products .container {
+    display: flex;
+}
+
+#other-products .container img {
+    display: block;
+    width: 100%;
+}
+
+#social-media {
+    background-color: #E15426;
+    padding: 96px;
+}
+
+#social-media h3 {
+    color: #E9E8E6;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+#social-media p {
+    color: #E9E8E6;
+}
+
+#social-media .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-links img {
+    height: 32px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
